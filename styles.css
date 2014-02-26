@@ -49,21 +49,16 @@ strong {
 
 .page-header .github-icon a {
     text-decoration: none;
-    transition: color 1000ms ease;
-    color: rgba(50, 50, 50, 0.1);
     font-size: 8em;
     text-shadow: 0 2px 2px rgba(255, 255, 255, 0.5),
         0 -1px 1px rgba(210, 210, 210, 0.5);
+    transition: color 1000ms ease;
 }
 
 .page-header .github-icon a:hover,
 .page-header .github-icon a:active {
     transition: color 1000ms ease;
     color: rgba(83, 191, 107, 1);
-}
-
-.page-header .github-icon a:visited {
-    transition: none;
 }
 
 .page-header .github-icon {
