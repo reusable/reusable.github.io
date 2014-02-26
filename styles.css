@@ -25,12 +25,12 @@ body {
 
 .page-header .title {
     font-size: 6em;
-    background-color: white;
+    background-color: #53bf6b;
     margin: 0;
-    box-shadow: 0 10px 5px rgba(100, 100, 100, 0.1),
-        0 -5px 3px rgba(100, 100, 100, 0.1);
-    border-bottom: 5px solid #53bf6b;
-    color: #53bf6b;
+    color: #ffffff;
+    text-shadow: 0 2px 2px rgba(100, 100, 100, 0.5),
+        0 -1px 1px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 -3px 3px rgba(100, 100, 100, 0.1);
 }
 
 strong {
@@ -39,7 +39,12 @@ strong {
 
 .page-header .tagline {
     font-size: 1.5em;
-    margin: 20px 0 0;
+    margin: 0;
+    padding: 10px 0;
+    box-shadow: 0 3px 3px rgba(100, 100, 100, 0.1),
+        0 -3px 3px rgba(100, 100, 100, 0.1);
+    background-color: #ffffff;
+    color: #888888;
 }
 
 .page-header .github-icon a:link,
@@ -49,7 +54,7 @@ strong {
 
 .page-header .github-icon a {
     text-decoration: none;
-    font-size: 8em;
+    font-size: 5em;
     text-shadow: 0 2px 2px rgba(255, 255, 255, 0.5),
         0 -1px 1px rgba(210, 210, 210, 0.5);
     transition: color 1000ms ease;
