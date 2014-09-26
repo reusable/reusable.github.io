@@ -6,7 +6,7 @@ body {
 
 body {
     font-size:100%;
-    background-image: url('http://subtlepatterns.com/patterns/escheresque.png');
+    background-image: url('bg.png');
     margin: 0;
     min-width: 530px;
 }
